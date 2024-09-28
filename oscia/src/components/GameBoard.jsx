@@ -43,7 +43,6 @@ export const GameBoard = () => {
           </div>
         ))}
       </div>
-
       <div className={styles.burstTimes}>
         {processes.map((process, index) => (
           <div key={index} className={styles.burstTime}>
