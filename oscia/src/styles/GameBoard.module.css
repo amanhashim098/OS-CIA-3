@@ -32,9 +32,9 @@
   
 
   .burstTimes {
-    position: fixed; /* Fixes the position */
-    bottom: 20px; /* Distance from the bottom */
-    left: 35px; /* Distance from the right */
+    position: fixed; 
+    bottom: 20px; 
+    left: 35px; 
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -57,4 +57,56 @@
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
+  }
+
+
+  .ganttChart {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    justify-content: flex-start;
+  }
+  
+  .ganttProcess {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ganttProcess img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .evaluateButton {
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 10px 20px;
+    font-family: "IBM Plex Mono", monospace;
+    background-color: #9c28a7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .evaluateButton:hover {
+    background-color: #701c77;
+  }
+  
+  .evaluationMessage {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 24px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: bold;
+    color: #fff;
   }
